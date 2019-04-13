@@ -1,0 +1,73 @@
+<div style="margin-top: 7%">
+
+    <div Align="center">
+      <h3 style="font-family: Luckiest Guy; margin-bottom: 4% "> Dodawanie zawodnikow </h3>
+    </div>
+
+  <div>
+    <div *ngIf="InfoShow" class="alert alert-success" role="alert">
+      <h4 Align="center">Zmiany zostały zapisane pomylnie!</h4>
+    </div>
+  </div>
+
+  <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" >
+    <div class="card" style="min-width: 60%;" >
+      <div class="card-header" style="font-weight: 700">
+        Dodawanie zawodnika
+      </div>
+
+      <div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+
+            <div>
+              <div style="margin-top: 2%">
+                <label style="font-weight: 600">Imie:</label>
+                <input type="text" class="form-control" id="name" formControlName="name">
+                <div *ngIf="contactForm.get('name').invalid && contactForm.get('name').dirty">
+                  <label style="color: red">Pole wymagane!</label>
+                </div>
+              </div>
+
+              <div style="margin-top: 2%">
+                <label style="font-weight: 600">Nazwisko:</label>
+                <input type="text" class="form-control" id="surname" formControlName="surname">
+                <div *ngIf="contactForm.get('surname').invalid && contactForm.get('surname').dirty">
+                  <label style="color: red">Pole wymagane!</label>
+                </div>
+              </div>
+
+              <div style="margin-top: 2%">
+                <label style="font-weight: 600">Wiek:</label>
+                <input type="number" class="form-control" id="age" formControlName="age">
+                <div  *ngIf="contactForm.get('age').invalid && contactForm.get('age').dirty">
+                  <label style="color: red">Pole wymagane!</label>
+                </div>
+              </div>
+
+              <div  class="form-group row" style="margin-top: 2%">
+                <label style="margin-left: 2%; margin-top: 2%; font-weight: 600"  for="selectPosition">Pozycja:</label>
+                <div class="col-4">
+                  <mat-form-field>
+                    <mat-select  formControlName="selectPosition" >
+                      <mat-option *ngFor="let pos of positions" [value]="pos">{{pos}}</mat-option>
+                    </mat-select>
+                  </mat-form-field>
+                </div>
+              </div>
+
+
+              </div>
+
+            </li>
+          </ul>
+        </div>
+    </div>
+
+    <div Align="right" style="margin-top: 2%">
+        <button style="margin-right: 2%" (click)="onReset()" class="btn btn-info">Wyczysc pola</button>
+        <button style="margin-right: 2%" type="submit" [disabled]="contactForm.invalid" class="btn btn-success">Dodaj zawodnika</button>
+    </div>
+  </form>
+</div>
+

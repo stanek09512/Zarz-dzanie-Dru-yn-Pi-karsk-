@@ -1,0 +1,52 @@
+
+    <div style=" display: flex;
+align-items: center;
+justify-content: center; margin-top: 3%">
+
+<div *ngIf="homeMode" class="text-center mb-4" style="padding: 21px;">
+    <img class="mb-4" src="assets/logoStrony.png"  alt="" width="35%" height="auto">
+    <h1 class="h3 mb-3 font-weight-normal">TwojManager.pl</h1>
+
+    <p>Zadbaj o odpowiednią organizację w swojej drużynie,<br>
+    teraz możesz tego wszystkiego dokonać w jednym miejscu<br>
+    Zarejestruj się i zobacz!</p>
+    <button class="btn btn-lg btn-success btn-block" type="submit" (click)="registerToggle()">Zarejestruj</button>
+  </div>
+<div *ngIf="!homeMode" class="text-center mb-4" style="width: 35%;">
+<form #registerForm="ngForm" (ngSubmit)="register()" class="form-signin" style="padding: 20px; border: 1px solid lightgray;
+border-radius: 5px;">
+    <div class="text-center mb-4">
+      <img class="mb-4" src="assets/logoStrony.png"  alt="" width="35%" height="auto">
+      <h1 class="h3 mb-3 font-weight-bold;">Rejestracja</h1>
+    </div>
+
+    <div class="form-label-group">
+      <input type="text" id="inputEmail" class="form-control" placeholder="Nazwa użytkownika" required
+      name="userName" [(ngModel)]="model.userName">
+      <label for="inputEmail">Nazwa użytkownika</label>
+    </div>
+
+    <div class="form-label-group">
+      <input type="password" id="inputPassword" class="form-control" placeholder="Hasło" required
+      name="password" [(ngModel)]="model.password">
+      <label for="inputPassword">Hasło</label>
+    </div>
+
+    <div class="form-label-group">
+      <input type="password" id="inputPassword2" class="form-control" placeholder="Powtorz hasło" required
+      name="password2" [(ngModel)]="model.password2">
+      <label for="inputPassword2">Powtorz hasło</label>
+    </div>
+
+
+
+    <button class="btn btn-lg btn-success btn-block" type="submit">Zarejestruj</button>
+    <button class="btn btn-lg btn-light btn-block" type="button" (click)="cancel()">Anuluj</button>
+    <p class="mt-5 mb-3 text-muted text-center">© 2018-2019</p>
+  </form>
+</div>
+
+
+</div>
+
+

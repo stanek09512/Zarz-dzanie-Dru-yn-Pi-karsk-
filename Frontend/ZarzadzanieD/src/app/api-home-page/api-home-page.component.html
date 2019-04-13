@@ -1,0 +1,21 @@
+<div class="row " >
+    <div class="col-lg-3"  >  <!-- menu-->
+          <div >
+               <app-menu2  Align="center" style="align-items: center; "></app-menu2>
+            </div>
+    </div>
+    <div class="col-lg-9 " style="border-right: 1px ridge #b3ffb3; border-left: 1px ridge #b3ffb3; height: 90%;"> <!-- pole na pozostale komponenty-->
+        <div class="col-lg-12 " style="  margin-top: 3%;  ">  <!-- progressbar-->
+
+          <app-progress-bar></app-progress-bar>
+
+        </div>
+        <div class="col-lg-12"  style="  margin-bottom:10%" > <!-- komponenty glowne-->
+
+          <div >
+              <router-outlet ></router-outlet>
+          </div>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\bin\Release\netcoreapp2.1\InzBackApi.deps.json
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\bin\Release\netcoreapp2.1\InzBackApi.runtimeconfig.json
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\bin\Release\netcoreapp2.1\InzBackApi.runtimeconfig.dev.json
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\bin\Release\netcoreapp2.1\InzBackApi.dll
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\bin\Release\netcoreapp2.1\InzBackApi.pdb
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\bin\Release\netcoreapp2.1\InzBackCore.dll
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\bin\Release\netcoreapp2.1\InzBackInfrastructure.dll
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\bin\Release\netcoreapp2.1\InzBackInfrastructure.pdb
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\bin\Release\netcoreapp2.1\InzBackCore.pdb
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\obj\Release\netcoreapp2.1\InzBackApi.csprojAssemblyReference.cache
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\obj\Release\netcoreapp2.1\InzBackApi.csproj.CoreCompileInputs.cache
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\obj\Release\netcoreapp2.1\InzBackApi.RazorAssemblyInfo.cache
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\obj\Release\netcoreapp2.1\InzBackApi.RazorAssemblyInfo.cs
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\obj\Release\netcoreapp2.1\InzBackApi.AssemblyInfoInputs.cache
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\obj\Release\netcoreapp2.1\InzBackApi.AssemblyInfo.cs
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\obj\Release\netcoreapp2.1\InzBackApi.RazorTargetAssemblyInfo.cache
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\obj\Release\netcoreapp2.1\InzBackApi.csproj.CopyComplete
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\obj\Release\netcoreapp2.1\InzBackApi.dll
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\obj\Release\netcoreapp2.1\InzBackApi.pdb
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\bin\Release\netcoreapp2.1\InzBackApi.deps.json
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\bin\Release\netcoreapp2.1\InzBackApi.runtimeconfig.json
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\bin\Release\netcoreapp2.1\InzBackApi.runtimeconfig.dev.json
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\bin\Release\netcoreapp2.1\InzBackApi.dll
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\bin\Release\netcoreapp2.1\InzBackApi.pdb
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\bin\Release\netcoreapp2.1\InzBackCore.dll
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\bin\Release\netcoreapp2.1\InzBackInfrastructure.dll
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\bin\Release\netcoreapp2.1\InzBackInfrastructure.pdb
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\bin\Release\netcoreapp2.1\InzBackCore.pdb
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\obj\Release\netcoreapp2.1\InzBackApi.csprojAssemblyReference.cache
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\obj\Release\netcoreapp2.1\InzBackApi.csproj.CoreCompileInputs.cache
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\obj\Release\netcoreapp2.1\InzBackApi.RazorAssemblyInfo.cache
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\obj\Release\netcoreapp2.1\InzBackApi.RazorAssemblyInfo.cs
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\obj\Release\netcoreapp2.1\InzBackApi.AssemblyInfoInputs.cache
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\obj\Release\netcoreapp2.1\InzBackApi.AssemblyInfo.cs
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\obj\Release\netcoreapp2.1\InzBackApi.RazorTargetAssemblyInfo.cache
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\obj\Release\netcoreapp2.1\InzBackApi.csproj.CopyComplete
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\obj\Release\netcoreapp2.1\InzBackApi.dll
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackApi\obj\Release\netcoreapp2.1\InzBackApi.pdb

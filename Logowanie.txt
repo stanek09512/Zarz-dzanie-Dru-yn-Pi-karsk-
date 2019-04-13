@@ -1,0 +1,3 @@
+Konto z wypełnionymi przykładowymi danymi i prawami administratora:
+Login: administrator
+Hasło: administrator

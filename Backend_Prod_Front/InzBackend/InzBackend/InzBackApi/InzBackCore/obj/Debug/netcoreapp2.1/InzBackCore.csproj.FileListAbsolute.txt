@@ -1,0 +1,81 @@
+R:\Projekty\InzBackend\InzBackApi\InzBackCore\bin\Debug\netcoreapp2.1\InzBackCore.deps.json
+R:\Projekty\InzBackend\InzBackApi\InzBackCore\bin\Debug\netcoreapp2.1\InzBackCore.dll
+R:\Projekty\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.csprojAssemblyReference.cache
+R:\Projekty\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.csproj.CoreCompileInputs.cache
+R:\Projekty\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.AssemblyInfoInputs.cache
+R:\Projekty\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.AssemblyInfo.cs
+R:\Projekty\InzBackend\InzBackApi\InzBackCore\bin\Debug\netcoreapp2.1\InzBackCore.pdb
+R:\Projekty\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.dll
+R:\Projekty\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.pdb
+S:\21.10.2018 obsluga zawodnikow w meczu ok\InzBackend\InzBackApi\InzBackCore\bin\Debug\netcoreapp2.1\InzBackCore.deps.json
+S:\21.10.2018 obsluga zawodnikow w meczu ok\InzBackend\InzBackApi\InzBackCore\bin\Debug\netcoreapp2.1\InzBackCore.dll
+S:\21.10.2018 obsluga zawodnikow w meczu ok\InzBackend\InzBackApi\InzBackCore\bin\Debug\netcoreapp2.1\InzBackCore.pdb
+S:\21.10.2018 obsluga zawodnikow w meczu ok\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.csprojAssemblyReference.cache
+S:\21.10.2018 obsluga zawodnikow w meczu ok\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.csproj.CoreCompileInputs.cache
+S:\21.10.2018 obsluga zawodnikow w meczu ok\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.AssemblyInfoInputs.cache
+S:\21.10.2018 obsluga zawodnikow w meczu ok\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.AssemblyInfo.cs
+S:\21.10.2018 obsluga zawodnikow w meczu ok\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.dll
+S:\21.10.2018 obsluga zawodnikow w meczu ok\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.pdb
+R:\Projekty\inzBckkOk\InzBackend\InzBackApi\InzBackCore\bin\Debug\netcoreapp2.1\InzBackCore.deps.json
+R:\Projekty\inzBckkOk\InzBackend\InzBackApi\InzBackCore\bin\Debug\netcoreapp2.1\InzBackCore.dll
+R:\Projekty\inzBckkOk\InzBackend\InzBackApi\InzBackCore\bin\Debug\netcoreapp2.1\InzBackCore.pdb
+R:\Projekty\inzBckkOk\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.csprojAssemblyReference.cache
+R:\Projekty\inzBckkOk\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.csproj.CoreCompileInputs.cache
+R:\Projekty\inzBckkOk\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.AssemblyInfoInputs.cache
+R:\Projekty\inzBckkOk\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.AssemblyInfo.cs
+R:\Projekty\inzBckkOk\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.dll
+R:\Projekty\inzBckkOk\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.pdb
+C:\Users\Stanek\Desktop\09.01\inzBckkOk\InzBackend\InzBackApi\InzBackCore\bin\Debug\netcoreapp2.1\InzBackCore.deps.json
+C:\Users\Stanek\Desktop\09.01\inzBckkOk\InzBackend\InzBackApi\InzBackCore\bin\Debug\netcoreapp2.1\InzBackCore.dll
+C:\Users\Stanek\Desktop\09.01\inzBckkOk\InzBackend\InzBackApi\InzBackCore\bin\Debug\netcoreapp2.1\InzBackCore.pdb
+C:\Users\Stanek\Desktop\09.01\inzBckkOk\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.csprojAssemblyReference.cache
+C:\Users\Stanek\Desktop\09.01\inzBckkOk\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.csproj.CoreCompileInputs.cache
+C:\Users\Stanek\Desktop\09.01\inzBckkOk\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.AssemblyInfoInputs.cache
+C:\Users\Stanek\Desktop\09.01\inzBckkOk\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.AssemblyInfo.cs
+C:\Users\Stanek\Desktop\09.01\inzBckkOk\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.dll
+C:\Users\Stanek\Desktop\09.01\inzBckkOk\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.pdb
+R:\Projekty\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\bin\Debug\netcoreapp2.1\InzBackCore.deps.json
+R:\Projekty\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\bin\Debug\netcoreapp2.1\InzBackCore.dll
+R:\Projekty\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\bin\Debug\netcoreapp2.1\InzBackCore.pdb
+R:\Projekty\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.csprojAssemblyReference.cache
+R:\Projekty\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.csproj.CoreCompileInputs.cache
+R:\Projekty\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.AssemblyInfoInputs.cache
+R:\Projekty\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.AssemblyInfo.cs
+R:\Projekty\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.dll
+R:\Projekty\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.pdb
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\bin\Debug\netcoreapp2.1\InzBackCore.deps.json
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\bin\Debug\netcoreapp2.1\InzBackCore.dll
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\bin\Debug\netcoreapp2.1\InzBackCore.pdb
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.csprojAssemblyReference.cache
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.csproj.CoreCompileInputs.cache
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.AssemblyInfoInputs.cache
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.AssemblyInfo.cs
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.dll
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.pdb
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\bin\Debug\netcoreapp2.1\InzBackCore.deps.json
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\bin\Debug\netcoreapp2.1\InzBackCore.dll
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\bin\Debug\netcoreapp2.1\InzBackCore.pdb
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.csprojAssemblyReference.cache
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.csproj.CoreCompileInputs.cache
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.AssemblyInfoInputs.cache
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.AssemblyInfo.cs
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.dll
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.pdb
+R:\Projekty\całość na gita back + prod\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\bin\Debug\netcoreapp2.1\InzBackCore.deps.json
+R:\Projekty\całość na gita back + prod\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\bin\Debug\netcoreapp2.1\InzBackCore.dll
+R:\Projekty\całość na gita back + prod\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\bin\Debug\netcoreapp2.1\InzBackCore.pdb
+R:\Projekty\całość na gita back + prod\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.csprojAssemblyReference.cache
+R:\Projekty\całość na gita back + prod\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.csproj.CoreCompileInputs.cache
+R:\Projekty\całość na gita back + prod\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.AssemblyInfoInputs.cache
+R:\Projekty\całość na gita back + prod\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.AssemblyInfo.cs
+R:\Projekty\całość na gita back + prod\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.dll
+R:\Projekty\całość na gita back + prod\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.pdb
+C:\Users\Stanek\Desktop\Na płytę\Aplikacja\Backend_Prod_Front\InzBackend\InzBackend\InzBackApi\InzBackCore\bin\Debug\netcoreapp2.1\InzBackCore.deps.json
+C:\Users\Stanek\Desktop\Na płytę\Aplikacja\Backend_Prod_Front\InzBackend\InzBackend\InzBackApi\InzBackCore\bin\Debug\netcoreapp2.1\InzBackCore.dll
+C:\Users\Stanek\Desktop\Na płytę\Aplikacja\Backend_Prod_Front\InzBackend\InzBackend\InzBackApi\InzBackCore\bin\Debug\netcoreapp2.1\InzBackCore.pdb
+C:\Users\Stanek\Desktop\Na płytę\Aplikacja\Backend_Prod_Front\InzBackend\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.csprojAssemblyReference.cache
+C:\Users\Stanek\Desktop\Na płytę\Aplikacja\Backend_Prod_Front\InzBackend\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.csproj.CoreCompileInputs.cache
+C:\Users\Stanek\Desktop\Na płytę\Aplikacja\Backend_Prod_Front\InzBackend\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.AssemblyInfoInputs.cache
+C:\Users\Stanek\Desktop\Na płytę\Aplikacja\Backend_Prod_Front\InzBackend\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.AssemblyInfo.cs
+C:\Users\Stanek\Desktop\Na płytę\Aplikacja\Backend_Prod_Front\InzBackend\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.dll
+C:\Users\Stanek\Desktop\Na płytę\Aplikacja\Backend_Prod_Front\InzBackend\InzBackend\InzBackApi\InzBackCore\obj\Debug\netcoreapp2.1\InzBackCore.pdb

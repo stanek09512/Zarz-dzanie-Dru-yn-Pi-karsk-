@@ -1,0 +1,24 @@
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackInfrastructure\bin\Release\netcoreapp2.1\InzBackInfrastructure.deps.json
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackInfrastructure\bin\Release\netcoreapp2.1\InzBackInfrastructure.dll
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackInfrastructure\bin\Release\netcoreapp2.1\InzBackInfrastructure.pdb
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackInfrastructure\bin\Release\netcoreapp2.1\InzBackCore.dll
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackInfrastructure\bin\Release\netcoreapp2.1\InzBackCore.pdb
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackInfrastructure\obj\Release\netcoreapp2.1\InzBackInfrastructure.csprojAssemblyReference.cache
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackInfrastructure\obj\Release\netcoreapp2.1\InzBackInfrastructure.csproj.CoreCompileInputs.cache
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackInfrastructure\obj\Release\netcoreapp2.1\InzBackInfrastructure.AssemblyInfoInputs.cache
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackInfrastructure\obj\Release\netcoreapp2.1\InzBackInfrastructure.AssemblyInfo.cs
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackInfrastructure\obj\Release\netcoreapp2.1\InzBackInfrastructure.csproj.CopyComplete
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackInfrastructure\obj\Release\netcoreapp2.1\InzBackInfrastructure.dll
+R:\Projekty\backdeployiswag\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackInfrastructure\obj\Release\netcoreapp2.1\InzBackInfrastructure.pdb
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackInfrastructure\bin\Release\netcoreapp2.1\InzBackInfrastructure.deps.json
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackInfrastructure\bin\Release\netcoreapp2.1\InzBackInfrastructure.dll
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackInfrastructure\bin\Release\netcoreapp2.1\InzBackInfrastructure.pdb
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackInfrastructure\bin\Release\netcoreapp2.1\InzBackCore.dll
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackInfrastructure\bin\Release\netcoreapp2.1\InzBackCore.pdb
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackInfrastructure\obj\Release\netcoreapp2.1\InzBackInfrastructure.csprojAssemblyReference.cache
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackInfrastructure\obj\Release\netcoreapp2.1\InzBackInfrastructure.csproj.CoreCompileInputs.cache
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackInfrastructure\obj\Release\netcoreapp2.1\InzBackInfrastructure.AssemblyInfoInputs.cache
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackInfrastructure\obj\Release\netcoreapp2.1\InzBackInfrastructure.AssemblyInfo.cs
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackInfrastructure\obj\Release\netcoreapp2.1\InzBackInfrastructure.csproj.CopyComplete
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackInfrastructure\obj\Release\netcoreapp2.1\InzBackInfrastructure.dll
+R:\Projekty\backdeployiswag — kopia\inzBckkOk\InzBackend\InzBackend\InzBackApi\InzBackInfrastructure\obj\Release\netcoreapp2.1\InzBackInfrastructure.pdb

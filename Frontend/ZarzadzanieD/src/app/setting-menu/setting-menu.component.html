@@ -1,0 +1,19 @@
+<button   mat-button [matMenuTriggerFor]="menu" (click)="checkRole()">
+    <i style="font-size: 30px; justify-content: center; color: white " class="fas fa-tasks"></i>
+</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item (click)="OpenMainPage()">
+      <i class="fas fa-home"></i>
+    Strona głowna</button>
+
+  <button *ngIf="isAdmin" mat-menu-item (click)="OpenAccountPanel()">
+      <i class="fas fa-unlock"></i>
+    Panel administratora</button>
+
+  <button mat-menu-item (click)="OpenProfile()">
+      <i class="fas fa-cog"></i>
+    Profil</button>
+  <button mat-menu-item (click)="logout()">
+      <i class="fas fa-sign-out-alt"></i>
+    Wyloguj się</button>
+</mat-menu>

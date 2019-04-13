@@ -1,0 +1,28 @@
+.wyszukiwarkaInput {
+   float: right;
+   margin: 10px 30px 10px 0px;  /*gorny prawy dolny lewy*/
+   background: #B2C0DE ;
+}
+.wyszukiwarkaLabel {
+
+    float: right;
+    font-weight: bold;
+    text-align: "right";
+    margin: 10px 10px 10px 0px;
+}
+
+.Bramkarz {
+  background-color: orange;
+}
+.Obronca {
+  background-color: yellow;
+}
+
+.Pomocnik {
+  background-color: green;
+}
+
+.Napastnik {
+  background-color: blue;
+}
+

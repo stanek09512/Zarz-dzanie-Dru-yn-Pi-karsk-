@@ -1,0 +1,63 @@
+<div style=" display: flex;
+align-items: center;
+justify-content: center; margin-top: 3%; margin-bottom: 3%">
+  <div  class="text-center mb-4" style="width: 35%;">
+    <form #registerForm="ngForm"  class="form-signin" style="padding: 20px; border: 1px solid lightgray;
+    border-radius: 5px;">
+        <div class="text-center mb-4">
+          <img class="mb-4" src="assets/profile.png"  alt="" width="35%" height="auto">
+          <h1 class="h3 mb-3 font-weight-bold;">Twoj Profil</h1>
+        </div>
+
+
+        <hr>  <!-- linia -->
+
+
+        <label style="font-weight: 620; margin-top: 5%">Zmień nazwę użytkownika:</label>
+        <div  class="card" style=" padding: 4%; margin-bottom: 10%">
+          <div class="form-label-group">
+            <input type="text" id="inputEmail" class="form-control" placeholder="Wpisz nową nazwę użytkownika"
+            name="userName" [(ngModel)]="userName.userName" style=" margin-bottom: 3%">
+
+            <button class="btn btn-success btn-block" type="submit" style="height: 2%" (click)="ChangeUserName()">Zmień nazwe użytkownika</button>
+          </div>
+        </div>
+
+
+        <hr>  <!-- linia -->
+
+
+        <label style="font-weight: 620; margin-top: 5%">Zmień hasło:</label>
+        <div  class="card" style=" padding: 4%">
+        <div>
+          <div class="form-label-group" style=" margin-bottom: 3%">
+              <input type="password" id="inputPassword1" class="form-control" placeholder="Wpisz nowe hasło"
+              name="password" [(ngModel)]="userPassword.userPassword1">
+          </div>
+
+          <div class="form-label-group" style=" margin-bottom: 3%">
+              <input type="password" id="inputPassword2" class="form-control" placeholder="Powtorz nowe hasło"
+              name="password" [(ngModel)]="userPassword.userPassword2">
+          </div>
+        </div>
+        <div>
+            <button class="btn btn-success btn-block" type="submit" (click)="ChangePasswordUser()">Zmień hasło</button>
+        </div>
+      </div>
+
+
+      <hr>  <!-- linia -->
+      <label style="font-weight: 620; margin-top: 5%">Usuń konto:</label>
+        <div  class="card" style=" padding: 4%; margin-bottom: 3%">
+          <button type="button" class="btn btn-danger btn-block " (click)="openDialog()">Usuń konto</button>
+        </div >
+      <hr>  <!-- linia -->
+
+      <div>
+          <button class="btn btn-secondary btn-block" type="submit" (click)="OpenHome()" >Wroć na stronę głowną</button>
+      </div>
+
+      </form>
+    </div>
+
+<div>

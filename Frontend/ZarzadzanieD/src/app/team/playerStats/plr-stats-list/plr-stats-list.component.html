@@ -1,0 +1,46 @@
+<div style=" margin-top: 7%">
+
+    <div Align="center">
+        <h3 style="font-family: Luckiest Guy; margin-bottom: 4% "> Statystyki zawodnikow </h3>
+      </div>
+
+    <mat-card>
+      <table class="table table-hover" style="max-width: 80%; margin-left: auto;margin-right:auto; ">
+          <thead >
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col" style="font-weight: 630">Pozycja</th>
+              <th scope="col" style="font-weight: 630">Imie</th>
+              <th scope="col" style="font-weight: 630">Nazwisko</th>
+              <th scope="col" style="font-weight: 630">Mecze</th>
+              <th scope="col" style="font-weight: 630">Gole</th>
+              <th scope="col" style="font-weight: 630">Asysty</th>
+              <th scope="col" >
+                  <img src="assets/redCard48.png" style=" float:center; width:100%; height: auto; min-width: 30px " >
+                </th>
+              <th scope="col">
+                  <img src="assets/yellowCard.png" style=" float:center; width:100%; height: auto; min-width: 30px  " >
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor='let elem of PlayersStatsList$ | async; let i = index'>
+              <th   scope="row" [ngClass]="{
+                'Bramkarz': elem.position === 'Bramkarz',
+                'Obronca': elem.position === 'Obronca',
+                'Pomocnik': elem.position === 'Pomocnik',
+                'Napastnik': elem.position === 'Napastnik'
+                }">{{i+1}}</th>
+              <td >{{elem.position}}</td>
+              <td >{{elem.name}}</td>
+              <td >{{elem.surname}}</td>
+              <td >{{elem.matches}}</td>
+              <td >{{elem.goals}}</td>
+              <td >{{elem.assists}}</td>
+              <td >{{elem.redCard}}</td>
+              <td >{{elem.yellowCard}}</td>
+            </tr>
+          </tbody>
+        </table>
+    </mat-card>
+</div>

@@ -1,0 +1,68 @@
+<div >
+  <div style="margin-top: 1.2%">
+    <button (click)="OpenMainPage()" type="button" class="btn btn-success" style="width:100%">Strona głowna
+      <i class="fas fa-long-arrow-alt-right" style="position:absolute;right: 10%;  "></i>
+      </button>
+    </div>
+
+  <div style="margin-top: 1.2%">
+    <button (click)="onSelect1()" type="button" class="btn btn-success" style="width:100%; ">
+      Zawodnicy
+      <i class="fas fa-arrow-down" style="position: absolute;right: 10%;  "></i>
+    </button>
+
+    <div *ngIf="isOpenb1">
+      <div style="margin-top: 0.7%">
+        <button type="button" (click)="OpenZawodnicy()" class="btn btn-outline-success" style="width:100%">Skład
+          <i class="fas fa-long-arrow-alt-right" style="position: absolute;right: 10%;  "></i>
+      </button>
+      </div>
+
+      <div style="margin-top: 0.7%">
+        <button type="button" (click)="AddPlayerRoute()" class="btn btn-outline-success" style="width:100%">
+          Dodaj zawodnika
+          <i class="fas fa-long-arrow-alt-right" style="position: absolute;right: 10%;  "></i>
+      </button>
+      </div>
+
+      <div style="margin-top: 0.7%">
+        <button type="button" (click)="OpenPlrListStats()" class="btn btn-outline-success" style="width:100%">
+          Statystyka zawodnikow
+          <i class="fas fa-long-arrow-alt-right" style="position: absolute; right: 10%;  "></i></button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div style="margin-top: 1.2%">
+    <button (click)="onSelect2()" type="button" class="btn btn-success" style="width:100%">Mecze
+    <i class="fas fa-arrow-down" style="position: absolute;right: 10%;  "></i>
+</button>
+<div *ngIf="isOpenb2">
+        <div style="margin-top: 0.7%">
+            <button type="button" (click)="OpenCalendar()" class="btn btn-outline-success" style="width:100%">
+                Terminarz
+              <i class="fas fa-long-arrow-alt-right" style="position: absolute;right: 10%;  "></i>
+            </button>
+        </div>
+        <div style="margin-top: 0.7%">
+            <button type="button" (click)="OpenAddMatch()" class="btn btn-outline-success" style="width:100%">
+                Zaplanuj mecz
+              <i class="fas fa-long-arrow-alt-right" style="position: absolute;right: 10%;  "></i>
+            </button>
+        </div>
+        <div style="margin-top: 0.7%">
+            <button type="button" (click)="OpenMatchHistory()" class="btn btn-outline-success" style="width:100%">
+                Historia Meczy
+              <i class="fas fa-long-arrow-alt-right" style="position: absolute;right: 10%;  "></i>
+            </button>
+        </div>
+  </div>
+</div>
+
+
+
+
+
+</div>

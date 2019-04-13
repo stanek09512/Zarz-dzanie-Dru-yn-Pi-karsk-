@@ -1,0 +1,25 @@
+
+<div *ngIf="isAvailable" class="card" style="border-color: #ffb3b3 ">
+    <div class="card-body" >
+
+      <div  class="row" style="padding: 1%; display: flex; justify-content: center;">
+
+
+        <div style="margin-top: 1%">
+            <span style="font-weight: 650" >Do rozpoczęcia meczu pozostało:</span>
+        </div>
+        <div style="color:tomato; margin-left: 2%;">
+            <h3>{{timeToMatch}}</h3>
+        </div>
+
+        <div style="margin-top: 1%; margin-left: 2%;">
+            <span style="font-weight: 650" >Godzin(a).</span>
+        </div>
+      </div>
+
+        <div class="progress" style="height: 35px">
+            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" [ngStyle]="{width: progressValueToHTML} " aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" ></div>
+        </div>
+
+    </div>
+</div>

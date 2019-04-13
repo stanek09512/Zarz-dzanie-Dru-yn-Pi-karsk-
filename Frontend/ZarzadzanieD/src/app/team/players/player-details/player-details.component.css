@@ -1,0 +1,16 @@
+.divDetail {
+  margin: 0 auto;
+  max-width: 60%;
+  background-color: white;
+  border-top-style: ridge;
+  border-left-style: ridge;
+  border-right-style: ridge;
+  border-bottom-style: ridge;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  min-height: 200px;
+
+
+}

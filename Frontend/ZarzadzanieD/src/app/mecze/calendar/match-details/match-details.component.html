@@ -1,0 +1,101 @@
+<div style="margin-top: 5%">
+
+
+    <div Align="center">
+      <h4 style="font-family: Luckiest Guy; margin-bottom: 4% "> Dane meczu</h4>
+    </div>
+
+    <div *ngIf="InfoShow" class="alert alert-success" role="alert">
+        <h4 Align="center">Zmiany zostały zapisane pomylnie!</h4>
+    </div>
+
+    <div class="card" style="min-width: 60%;" >
+      <div class="card-header" style="font-weight: 700">
+        Dane meczu
+      </div>
+
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+        <form [formGroup]="contactForm">
+            <div class="form-group row">
+                <label for="nameOpponent" class="col-2 col-form-label"  style="font-weight: 600">Nazwa druzyny przeciwnej:</label>
+                <div class="col-4" style="margin-top: 3%">
+                  <input (input)="DisableSaveButton($event)" class="form-control" type="text" [(ngModel)]="nazwaPrzeciwnika"  id="nameOpponent" formControlName="nameOpponent" >
+                  <div *ngIf="nazwaPrzeciwnika === '' && contactForm.get('nameOpponent').dirty">Pole wymagane!</div>
+
+                </div>
+                  <label  for="dateMatch" class="col-2 col-form-label " style="font-weight: 600;margin-top: 1%">Data wydarzenia:</label>
+                  <div class="col-4" style="margin-top: 3%">
+                  <input (input)="DisableSaveButton($event)" class="form-control" type="datetime-local" [(ngModel)]="DataMeczu"  id="dateMatch" formControlName="dateMatch" >
+                  <div *ngIf="DataMeczu === '' && contactForm.get('dateMatch').dirty">Pole wymagane!</div>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="placeMatch" class="col-2 col-form-label"  style="font-weight: 600">Miejsce wydarzenia:</label>
+                <div class="col-4" style="margin-top: 2%">
+                  <input (input)="DisableSaveButton($event)" class="form-control" type="text" [(ngModel)]="miejsceMeczu"  id="placeMatch" formControlName="placeMatch" >
+                  <div *ngIf="miejsceMeczu === '' && contactForm.get('placeMatch').dirty">Pole wymagane!</div>
+              </div>
+          </div>
+        </form>
+      </li>
+    </ul>
+    </div>
+
+
+  <div Align="right" style="margin-top: 2%">
+      <button style="margin-right: 2%" (click)="BackToParentPage()" type="button" class="btn btn-secondary">Cofnij</button>
+      <button style="margin-right: 2%" (click)="EditMatch()" type="button" class="btn btn-primary">Edytuj dane meczu</button>
+      <button style="margin-right: 2%" (click)="DeleteMatch()" type="button" class="btn btn-danger">Usuń mecz</button>
+      <span *ngIf="buttonSaveVisible">
+        <button style="margin-right: 2%" (click)="SaveChanges()" type="button" class="btn btn-success" [disabled]="ButtonSave">Zapisz zmiany</button>
+      </span>
+  </div>
+
+  <div class="form-group row" style="margin-top: 5%">
+
+    <div class="card" style="width: 49%; margin-right: 2%" >
+      <div class="card-header" style="font-weight: 700">
+        Zawodnicy biorący udział w meczu:
+      </div>
+
+        <mat-selection-list #list1 [(ngModel)]="selectedOptionsInMatch" (ngModelChange)="onNgModelChangeIn($event)">
+        <mat-list-option *ngFor='let plr of playersInMatch$ | async; let i = index;' [value]="plr.id">
+          {{i+1 + '.' +' '+ plr.position + ' ' + plr.name+ ' ' + plr.surname}}
+        </mat-list-option >
+        </mat-selection-list >
+        <p>
+          Liczba zawodnikow wybranych do usunięcia z kadry: {{list1.selectedOptions.selected.length}}
+        </p>
+
+        <div Align="center" style="margin-top: 2%">
+          <button (click)="DeletePlayersFromMatch()" (click)="reloadComponent()" type="button" class="btn btn-danger"> Usuń zawodnikow kadry meczowej </button>
+        </div>
+    </div>
+
+
+      <div class="card" style="width: 49%;" >
+        <div class="card-header" style="font-weight: 700">
+          Zawodniczy poza kadrą meczową:
+        </div>
+            <mat-selection-list #list2 [(ngModel)]="selectedOptionsOutMatch" (ngModelChange)="onNgModelChangeOut($event)">
+            <mat-list-option *ngFor='let plr of playersOutMatch$ | async; let i = index;' [value]="plr.id">
+              {{i+1 + '.' +' '+ plr.position + ' ' + plr.name+ ' ' + plr.surname}}
+            </mat-list-option >
+          </mat-selection-list >
+          <p>
+            Liczba wybranych zawodnikow do powołania do kadry na mecz: {{list2.selectedOptions.selected.length}}
+          </p>
+
+          <div Align="center" style="margin-top: 2%">
+            <button (click)="AddPlayersToMatch()" (click)="reloadComponent()" type="button" class="btn btn-success"> Dodaj zawodnikow do meczu! </button>
+          </div>
+        </div>
+
+  </div>
+</div>
+<!--
+
+
+ -->

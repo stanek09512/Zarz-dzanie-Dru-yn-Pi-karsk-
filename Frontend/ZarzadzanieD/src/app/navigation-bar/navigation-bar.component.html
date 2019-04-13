@@ -1,0 +1,38 @@
+<div class="row" >  <!-- pasek nawigacji gora-->
+  <div class="col-sm-12" style="height: 50px; background: #00802b; position: fixed;  z-index: -1; ">
+
+      <div  class="row" style=" width: 100%; align-items: center;  ">
+          <div style="width: 15%" >
+            <img src="assets/logoStrony.png" style="width:50px;height:45px; margin-left:80%;" [routerLink]="['/home/main']" >
+             <!--po kliknieciu w ten obiekt przepkeiruje na damy adres-->
+          </div>
+          <div style="width: 35%" >
+              <img src="assets/logoText.png" style="width:auto;height:30px; margin-top:1%" [routerLink]="['/home/main']" >
+               <!--po kliknieciu w ten obiekt przepkeiruje na damy adres-->
+            </div>
+            <div class="row" style="width: 50%; " >
+              <div *ngIf="!loggedIn()" style=" margin-left: 20%">
+                  <form #loginForm="ngForm" class="form-inline my-2 my-lg-0"  (submit)="login()">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Login" name="username"
+                      required [(ngModel)]="model.username" >
+                    <input class="form-control mr-sm-2" type="password" placeholder="Haslo" name="password"
+                      required [(ngModel)]="model.password">
+                    <button class="btn btn-outline-light my-2 my-sm-0" [disabled]="!loginForm.valid" type="submit">Zaloguj</button>
+                  </form>
+              </div>
+              <div class="row" *ngIf="loggedIn()" style="margin-left: 55%">
+                <div style=" margin-top:2%; margin-right: 4px">
+                    <i style="color:white; font-size: 25px;" class="far fa-user"></i>
+                </div>
+                <div style="color: white; font-weight: 700; margin-top:3%; margin-right: 30px">
+                   Witaj {{authService.decodedToken?.unique_name | titlecase}}
+                </div>
+                <div>
+                  <app-setting-menu  ></app-setting-menu>
+                </div>
+              </div>
+            </div>
+      </div>
+
+  </div>
+</div>

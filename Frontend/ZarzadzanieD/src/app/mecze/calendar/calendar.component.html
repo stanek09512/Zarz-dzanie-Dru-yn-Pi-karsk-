@@ -1,0 +1,39 @@
+<div style="margin-top: 5%">
+
+  <div Align="center">
+    <h3 style="font-family: Luckiest Guy; "> Terminarz </h3>
+  </div>
+
+  <mat-card>
+    <div Align="right" style=" margin-bottom: 1%; margin-right: 2%" >
+      <form class="example-form">
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Wyszukaj mecz"  [(ngModel)]="WyszukiwarkaPrzeciwnika" name="inputField" >
+        </mat-form-field>
+      </form>
+    </div>
+
+    <div style=" margin-top: 2%">
+      <table class="table table-hover" style="max-width: 80%; margin: 0 auto; ">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col" style="font-weight: 630">Przeciwnik</th>
+            <th scope="col" style="font-weight: 630">Data</th>
+            <th scope="col" style="font-weight: 630">Miejsce</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr (click)="redirectToMatchDetails(elem.id)" *ngFor='let elem of allMatches$ | async | filterMatch: WyszukiwarkaPrzeciwnika; let i = index; '>
+            <th   scope="row">{{i+1}}</th>
+            <td >{{elem.opponentTeam}}</td>
+            <td >{{elem.matchDate}}</td>
+            <td >{{elem.place}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </mat-card>
+
+</div>
+

@@ -1,0 +1,68 @@
+<div style="margin-top: 7%">
+  <div>
+    <div *ngIf="InfoShow" class="alert alert-success" role="alert">
+        <h4 Align="center">Zmiany zostały zapisane pomylnie!</h4>
+    </div>
+  </div>
+
+  <div Align="center">
+    <h4 style="font-family: Luckiest Guy; margin-bottom: 4% "> Szczegoly zawodnika</h4>
+  </div>
+
+  <div class="card" style="min-width: 60%;" >
+    <div class="card-header" style="font-weight: 700;">
+      Szczegoly zawodnika
+    </div>
+
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">
+    <form [formGroup]="contactForm">
+        <div class="form-group row" >
+          <label for="name" class="col-2 col-form-label"  style="font-weight: 600; ">Imie:</label>
+          <div class="col-4" >
+            <input (input)="DisableSaveButton($event)" class="form-control" type="text" [(ngModel)]="imie"  id="namet" formControlName="name" >
+            <div *ngIf="imie === '' && contactForm.get('name').dirty">Pole wymagane!</div>
+
+          </div>
+          <label for="surname" class="col-2 col-form-label " style="font-weight: 600">Nazwisko:</label>
+          <div class="col-4">
+            <input (input)="DisableSaveButton($event)" class="form-control" type="text" [(ngModel)]="nazwisko"  id="surnamet" formControlName="surname" >
+            <div *ngIf="nazwisko === '' && contactForm.get('surname').dirty">Pole wymagane!</div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="selectPos" class="col-2 col-form-label"  style="font-weight: 600">Pozycja:</label>
+          <div class="col-4"  >
+            <mat-form-field >
+              <mat-select id="selectPos"  formControlName="positionControl" >
+                <mat-option *ngFor="let pos of positions" [value]="pos">{{pos}}</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+
+          <label for="age" class="col-2 col-form-label " style="font-weight: 600">Wiek:</label>
+          <div class="col-4">
+            <input (input)="DisableSaveButton($event)"  class="form-control" type="number" [(ngModel)]="wiek"  id="age" formControlName="age" >
+            <div *ngIf="wiek === null && contactForm.get('age').dirty">Pole wymagane!</div>
+          </div>
+        </div>
+
+
+
+    </form>
+  </li>
+  </ul>
+  </div>
+
+
+
+  <div Align="right" style="margin-top: 2%">
+    <button style="margin-right: 2%" (click)="BackToParentPage()" type="button" class="btn btn-secondary">Cofnij</button>
+    <button style="margin-right: 2%" (click)="EditPlayer()" type="button" class="btn btn-primary">Edytuj zawodnika</button>
+    <button style="margin-right: 2%" (click)="DeletePlayer()" type="button" class="btn btn-danger">Usuń zawodnika</button>
+    <span *ngIf="buttonSaveVisible">
+      <button  style="margin-right: 2%" (click)="SaveChanges()" type="button" class="btn btn-success" [disabled]="ButtonSave">Zapisz zmiany</button>
+    </span>
+
+  </div>
+</div>

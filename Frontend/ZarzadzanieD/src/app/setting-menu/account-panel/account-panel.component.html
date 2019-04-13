@@ -1,0 +1,50 @@
+<div Align="center" style="margin-top: 5%">
+  <h3 style="font-family: Luckiest Guy; ">Panel administratora kont</h3>
+</div>
+<div style="margin-top: 4%">
+<table class="table table-bordered" >
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Identyfikator konta</th>
+      <th scope="col">Nazwa użytkownika</th>
+      <th scope="col">Prawa użytkownika</th>
+      <th scope="col"><i class="far fa-save"></i></th>
+      <th scope="col"><i class="fas fa-user-times"></i></th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let account of accountList$ | async; let i=index">
+      <th scope="row">{{i+1}}</th>
+      <td >{{account.id}}</td>
+      <td >{{account.username}}</td>
+      <td>
+        <mat-form-field >
+            <mat-select  [(ngModel)]="account.role" >
+              <mat-option  [value]="pemissions[0]">Administrator</mat-option>
+              <mat-option  [value]="pemissions[1]">Gosć</mat-option>
+            </mat-select>
+          </mat-form-field>
+      </td>
+      <td>
+        <button type="button" class="btn btn-success"
+        (click)="saveChangesRole(account)">Zapisz zmiany</button>
+    </td>
+      <td>
+          <button type="button" class="btn btn-danger"
+          (click)="openDialog(account.id, account.username)">Usuń konto</button>
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+</div>
+
+
+<!--
+  <select [(ngModel)]="account.role" >
+          <option  [value]="pemissions[0]">Administrator</option> <!-- zadeklarowane pola musza byc te przy value ja je zadelkarowalem w liscie-->
+ <!--     <option  [value]="pemissions[1]">Gosć</option>
+        </select>
+-->

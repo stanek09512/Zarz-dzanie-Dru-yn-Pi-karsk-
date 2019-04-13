@@ -1,0 +1,88 @@
+<div style="margin-top: 5%">
+
+  <div Align="center">
+    <h3 style="font-family: Luckiest Guy; "> Kadra </h3>
+  </div>
+
+  <mat-card>
+ <div>
+        <div Align="right" style=" margin-bottom: 1%; margin-right: 2%">
+          <form class="example-form">
+            <mat-form-field class="example-full-width">
+              <input matInput placeholder="Wyszukaj zawodnika"  [(ngModel)]="WyszukiwarkaNazwisko" name="inputField" >
+            </mat-form-field>
+          </form>
+        </div>
+
+
+        <div>
+          <div style=" margin-top: 2%; clear:both; ">
+          <table class="table table-hover" style="max-width: 80%; margin: 0 auto; ">
+              <thead >
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col" style="font-weight: 630">Pozycja</th>
+                  <th scope="col" style="font-weight: 630">Imie</th>
+                  <th scope="col" style="font-weight: 630">Nazwisko</th>
+                  <th scope="col" style="font-weight: 630">Wiek</th>
+                </tr>
+              </thead>
+              <tbody>
+
+                <tr (click)="redirectToPlrDetails(elem.id)" *ngFor='let elem of allPlayers$ | async | filterSurname: WyszukiwarkaNazwisko; let i = index; '>
+                  <th   scope="row" [ngClass]="{
+                    'Bramkarz': elem.position === 'Bramkarz',
+                    'Obronca': elem.position === 'Obronca',
+                    'Pomocnik': elem.position === 'Pomocnik',
+                    'Napastnik': elem.position === 'Napastnik'
+                    }">{{i+1}}</th>
+                  <td >{{elem.position}}</td>
+                  <td >{{elem.name}}</td>
+                  <td >{{elem.surname}}</td>
+                  <td >{{elem.age}}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+  </div>
+</mat-card>
+  <router-outlet></router-outlet>
+</div>
+<!-- </div>
+
+  <div [ngClass]="'wyszukiwarkaInput'" style=" margin-bottom: 4%">
+    <input type="text" [(ngModel)]="WyszukiwarkaNazwisko">
+</div>
+
+(input)="Wyszukiwarka($event)" [value]="WyszukiwarkaNazwisko"
+placeholder="Szukaj..."
+
+
+<nav class="navbar navbar-light bg-light">
+  <form class="form-inline" >
+    <input type="text" [(ngModel)]="WyszukiwarkaNazwisko" class="form-control mr-sm-2" type="search"  aria-label="Search" >
+  </form>
+</nav>
+-->
+
+
+
+  <!-- <button (click)="getPlayers()">Pobierz zawodnikow</button>
+<button type="button" class="btn btn-success" (click)="getPlayer()">Pobierz zawodnika</button>
+<button (click)="getPlayerBySurname()">Pobierz zawodnikow po nazwisku</button>
+<button (click)="addPlayer()">Dodaj zawodnika</button>
+<button (click)="updatePlayer()">Edytuj Zawodnika</button>
+<button (click)="deletePlayer()">Usuń Zawodnika</button>-->
+<!--<div *ngFor="let elem of allPlayers$ | async">
+  <ul>
+    <li class="alert alert-secondary" role="alert">{{elem.name +"  "+ elem.surname}}</li>
+  </ul>
+  </div>
+
+
+<input (input)="Wyszukiwarka($event)" name="wyszukiwarkaIn" [ngClass]="'wyszukiwarkaInput'">
+<label  for="wyszukiwarkaIn" [ngClass]="'wyszukiwarkaLabel'"  >Wyszukiwarka:</label>
+
+-->

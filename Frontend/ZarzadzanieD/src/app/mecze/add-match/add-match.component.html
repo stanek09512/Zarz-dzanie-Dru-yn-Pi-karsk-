@@ -1,0 +1,105 @@
+<div style="margin-top:7%">
+
+    <div Align="center" style="margin-top: 2%; margin-bottom: 2%">
+        <h3 style="font-family: Luckiest Guy; ">PLANOWANIE MECZU</h3>
+    </div>
+
+
+
+    <div *ngIf="idMatch === null " style="margin-top:2%">
+        <mat-card>
+        <div   >
+             <div >
+                <mat-vertical-stepper labelPosition="bottom" #stepper style="margin-top:4%">
+                    <mat-step [stepControl]="firstFormGroup">
+                        <form [formGroup]="firstFormGroup">
+                        <ng-template matStepLabel>Podaj nazwę drużyny przeciwnej</ng-template>
+                            <mat-form-field>
+                            <input  matInput placeholder="Nazwa drużyny przeciwnej..." formControlName="nameOpponent"
+                            (input)="getValueNameOpponentfield($event)" required>
+                            </mat-form-field>
+                            <div Align="right" >
+                                <button style="margin-right: 2%" mat-button matStepperNext class="btn btn-info" [disabled]="nameOpponentFieldFlag">Dalej</button>
+                            </div>
+                        </form>
+                    </mat-step>
+
+                    <mat-step [stepControl]="secondFormGroup" >
+                        <form [formGroup]="secondFormGroup">
+                            <ng-template matStepLabel>Podaj datę wydarzenia</ng-template>
+                            <mat-form-field>
+                                <input matInput (input)="getValueDateMatchfield($event)" type="datetime-local" placeholder="Twoja data..." formControlName="dateMatch" required>
+                            </mat-form-field>
+                            <div Align="right">
+                                <button style="margin-right: 2%" mat-button matStepperPrevious class="btn btn-secondary">Powrot</button>
+                                <button style="margin-right: 2%" mat-button matStepperNext class="btn btn-info" [disabled]="dateMatchFieldFlag">Dalej</button>
+                            </div>
+                        </form>
+                    </mat-step>
+
+                    <mat-step [stepControl]="thirdFormGroup" >
+                        <form [formGroup]="thirdFormGroup">
+                            <ng-template matStepLabel>Podaj miejsce wydarzenia</ng-template>
+                            <mat-form-field>
+                                <input matInput (input)="getValuePlacefield($event)" placeholder="Twoje miejsce..." formControlName="place" required>
+                            </mat-form-field>
+                            <div Align="right">
+                                <button style="margin-right: 2%" mat-button matStepperPrevious class="btn btn-secondary">Powrot</button>
+                                <button style="margin-right: 2%"  mat-button matStepperNext [disabled]="placeFieldFlag" class="btn btn-info">Dalej</button>
+                            </div>
+                        </form>
+                    </mat-step>
+
+                    <mat-step>
+                        <ng-template matStepLabel>Zakończkone</ng-template>
+                        <div Align="center"  class="alert alert-info" role="alert">
+                        Potwierdz utworzenie meczu lub zacznij od początku!
+                        </div>
+
+                        <div Align="right">
+                            <button style="margin-right: 2%" mat-button (click)="stepper.reset()" (click)="resetIdMatch()" class="btn btn-dark">Dodaj kolejny mecz</button>
+                            <button style="margin-right: 2%"  mat-button matStepperNext (click)="SaveMatch()" [disabled]="placeFieldFlag" class="btn btn-success">Dodaj mecz</button>
+                        </div>
+                    </mat-step>
+                </mat-vertical-stepper>
+            </div>
+        </div>
+      </mat-card>
+    </div>
+
+    <!--Ponieze jest zadeklarowana lista zawodnikow na selectach-->
+    <div *ngIf="idMatch !== null " style="margin-top: 2%">
+    <div>
+        <div *ngIf="visibleAlertDoMatch" Align="center"  class="alert alert-success" role="alert" >
+        Brawo! Udało ci się utworzyć mecz. <br>
+        Teraz możesz wybrać kadrę meczową dla tego meczu lub utworzyć kolejny.
+        </div>
+    </div>
+
+    <div class="card" style="min-width: 60%;" >
+        <div class="card-header" style="font-weight: 700">
+        Kadra:
+        </div>
+
+        <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+        <mat-selection-list #list [(ngModel)]="selectedOptions" (ngModelChange)="onNgModelChange($event)">
+            <mat-list-option *ngFor="let plr of playerList; let i = index;" [value]="plr.id">
+            {{i+1 + '.' +' '+ plr.position+ ' ' + plr.name+ ' ' + plr.surname}}
+            </mat-list-option >
+        </mat-selection-list >
+
+        <p >
+            Liczba wybranych zawodnikow: {{list.selectedOptions.selected.length}}
+        </p>
+
+            <div Align="right">
+                <button style="margin-right: 2%" mat-button (click)="reloadComponent()" (click)="resetIdMatch()" class="btn btn-dark">Dodaj kolejny mecz</button>
+                <button  (click)="AddPlayersToMatch()" (click)="resetIdMatch()" (click)="reloadComponent()" type="button" class="btn btn-success"> Dodaj zawodnikow do meczu! </button>
+            </div>
+
+        </li>
+        </ul>
+    </div>
+    </div>
+</div>

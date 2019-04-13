@@ -1,0 +1,22 @@
+.Bramkarz {
+  background-color: orange;
+}
+.Obronca {
+  background-color: yellow;
+}
+
+.Pomocnik {
+  background-color: green;
+}
+
+.Napastnik {
+  background-color: blue;
+}
+
+select {
+  border: 2px gray;
+  border-radius: 5px;
+  align-items: center;
+  height: 38px;
+}
+

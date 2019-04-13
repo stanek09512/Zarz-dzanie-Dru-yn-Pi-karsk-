@@ -1,0 +1,51 @@
+
+<div Align="center" style="margin-top: 2%; margin-bottom: 2%">
+  <h2 style="font-family: Luckiest Guy; ">NAJBLIZSZE MECZE</h2>
+</div>
+
+<div *ngIf="(nearestsMatches$ | async)?.length > 0">
+  <span  *ngFor="let match of nearestsMatches$ | async" >
+    <mat-card style="margin-top: 2%;" >
+      <div  style="display: flex; justify-content: center; " >
+          <div style=" display:inline-block;" >
+              <div class="card" style="float: left; width: 34%; height: auto">
+                <img src="assets/logoStrony.png" style=" float:center" >
+                <hr>
+                <figcaption style="color: #001a00; font-family:fantasy; font-size: 24px; text-align: center;margin-bottom: 5% ">Twoja drużyna</figcaption>
+              </div>
+              <div style="display:table-column; justify-content: center; float: left; height: 100%; margin-left:2%; margin-right: 2%;">
+                <div style="text-align: center; margin-top:40%">
+                  <label  style="color: #001a00;font-family:fantasy; vertical-align: middle; ">Data:</label>
+                </div>
+                <div>
+                  <p style="color: #001a00; font-family:fantasy; font-size: large ">{{match.matchDate | date:'MM/dd/yyyy, H:mm' }}</p>
+                  <hr>
+                </div>
+              </div>
+              <div class="card" style="float: left; width: 34%; height: auto">
+                <img src="assets/przeciwnik.png"  >
+                <hr>
+                <figcaption style="color: #001a00; font-family:fantasy; font-size: 24px; text-align: center;margin-bottom: 5% ">{{match.opponentTeam | titlecase }}</figcaption>
+              </div>
+          </div>
+      </div>
+
+    <div Align="center" >
+        <label style="color: #001a00; font-family:fantasy; margin-top: 5% ">Miejsce:</label>
+        <label style="color: #001a00; font-family:fantasy; margin-left: 1% ; font-size: large" > {{match.place}}</label>
+        <hr style="margin-right: 15%; margin-left: 15%;">
+    </div>
+
+    <mat-card-actions Align="right"  >
+        <button (click)="OpenMatch(match.id)"   type="button" class="btn btn-outline-secondary">
+          Przejdz do meczu
+          <i class="far fa-hand-point-right"></i></button>
+    </mat-card-actions>
+  </mat-card>
+  </span>
+</div>
+
+<div class="alert alert-info" *ngIf="!((nearestsMatches$ | async)?.length > 0)" style="margin-top: 20%; margin-bottom: 60%">
+  <h4 style = "text-align: center">Nie zaplanowałes jeszcze żadnego meczu!</h4>
+</div>
+
