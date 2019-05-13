@@ -1,0 +1,5 @@
+Aby uruchomic aplikacje przy kompilacji należy ustawić aby uruchomilo z InzBackApi.
+
+Konto z wypełnionymi przykładowymi danymi i prawami administratora po pobraniu i polączeniu z załączoną bazą danych:
+Login: administrator
+Hasło: administrator
